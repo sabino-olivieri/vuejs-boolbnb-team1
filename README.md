@@ -1,6 +1,6 @@
 # BoolBnB
 
-#### BoolBnB è una web app che permette di trovare e gestire l’affitto di appartamenti. Questa repository contiene il codice sorgente per la parte backend del progetto.
+#### BoolBnB è una web app che permette di trovare e gestire l’affitto di appartamenti. Questa repository contiene il codice sorgente per la parte frontend del progetto.
 
 -	Introduzione
 -	Requisiti
