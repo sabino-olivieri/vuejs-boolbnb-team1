@@ -8,7 +8,7 @@ export default {
     data() {
         return {
             showServices: false,
-            baseUrl: "http://127.0.0.1:8000/storage/services",
+            baseUrl: "https://olivierisabino.it/storage/services",
         }
     },
     methods: {

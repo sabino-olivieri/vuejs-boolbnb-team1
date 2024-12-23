@@ -36,8 +36,8 @@ export default {
       </button>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav gap-2 ms-auto mb-lg-0">
-          <li class=""><a href="http://127.0.0.1:8000/" target="_blank" class="nav-link font ms_hover">Accedi</a></li>
-          <li class="nav-item"><a href="http://127.0.0.1:8000/register" target="_blank"
+          <li class=""><a href="https://olivierisabino.it/" target="_blank" class="nav-link font ms_hover">Accedi</a></li>
+          <li class="nav-item"><a href="https://olivierisabino.it/register" target="_blank"
               class="nav-link font ms_hover">Registrati</a>
           </li>
 

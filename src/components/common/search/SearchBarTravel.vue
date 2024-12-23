@@ -27,7 +27,7 @@ export default {
   mounted() {
     // this.$store.dispatch('fetchFlats');
     document.addEventListener('click', this.handleClickOutside);
-    fetch(`http://127.0.0.1:8000/api/services`)
+    fetch(`https://olivierisabino.it/api/services`)
       .then(response => response.json())
       .then(data => {
         this.avServices = data;

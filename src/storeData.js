@@ -22,7 +22,7 @@ const store = createStore({
       selectedSuggestion: null,
       lat: "",
       lon: "",
-      fetchMyAPIPath : 'http://127.0.0.1:8000/api/',
+      fetchMyAPIPath : 'https://olivierisabino.it/api/',
       allFlats : [],
       foundedFlats : [],
       radius : 20,

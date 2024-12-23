@@ -65,7 +65,7 @@ export default {
 
     methods: {
         fetchFlats() {
-            axios.get('http://127.0.0.1:8000/api/flats/sponsored').then((resp) => {
+            axios.get('https://olivierisabino.it/api/flats/sponsored').then((resp) => {
                 this.flats = resp.data;
                 
             });

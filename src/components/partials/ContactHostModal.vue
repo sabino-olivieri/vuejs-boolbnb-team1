@@ -41,7 +41,7 @@ export default {
       }
 
       axios
-        .post(`http://127.0.0.1:8000/api/messages`, this.formData)
+        .post(`https://olivierisabino.it/api/messages`, this.formData)
         .then((response) => {
           // console.log("Dati inviati:", response.data);
           this.closeModal();

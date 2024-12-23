@@ -17,15 +17,15 @@ export default {
             photos: [],
             lat: null,
             lon: null,
-            flatCoverImg: "http://127.0.0.1:8000/storage",
-            flatPhotosUrl: "http://127.0.0.1:8000/storage",
+            flatCoverImg: "https://olivierisabino.it/storage",
+            flatPhotosUrl: "https://olivierisabino.it/storage",
             errorMessage: null,
         };
     },
     created() {
         const slug = this.$route.params.slug;
 
-        axios.get(`http://127.0.0.1:8000/api/flats/${slug}`).then((resp) => {
+        axios.get(`https://olivierisabino.it/api/flats/${slug}`).then((resp) => {
             this.flat = resp.data;
             this.flatServices = resp.data.services;
             this.photos = resp.data.photos;
